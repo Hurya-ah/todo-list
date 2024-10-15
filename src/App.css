@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f8ff; /* Light background color */
+}
+
+.todo-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center text */
+}
+
+h1 {
+  color: #4A4A4A;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center; /* Center the input and button */
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7ffe7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.remove-button {
+  padding: 5px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
